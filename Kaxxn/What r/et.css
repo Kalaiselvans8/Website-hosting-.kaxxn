@@ -1,0 +1,1768 @@
+
+ @media only screen and (max-width:1000px) {
+    
+*{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        box-sizing: border-box;
+     }
+    
+
+.outer-structure{
+    display: grid;
+    /* border: 1px solid black; */
+    height:100%;
+    width: 100%;
+}
+/* The following are the codes of first structure title and home to skill bar  */
+.first-structure{
+    /* border: 1px solid red; */
+    height: 12vh;
+}
+
+.navbar{
+    /* border: 1px solid blue; */
+    height: 7vh;
+    background-color: #070F2B;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.navbar > div{
+    color: white;
+
+}
+
+.mobile-view-container{
+    /* border: 1px solid blue; */
+    height: 5vh;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    background-color: #070F2B;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+a:hover{
+    color:#52D3D8 ;
+}
+
+.mobile-home-container{
+    /* border: 1px solid green; */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-home-container:hover{
+    background-color:#232D3F  ;
+}
+
+.mobile-about-container{
+    /* border: 1px solid green; */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.mobile-about-container:hover{
+    background-color:#232D3F  ;
+}
+
+.mobile-resume-container{
+    /* border: 1px solid green; */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.mobile-resume-container:hover{
+    background-color:#232D3F  ;
+}
+
+.mobile-portfolio-container{
+    /* border: 1px solid green; */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.mobile-portfolio-container:hover{
+    background-color:#232D3F  ;
+}
+
+.mobile-service-container{
+    /* border: 1px solid green; */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.mobile-service-container:hover{
+    background-color:#232D3F  ;
+}
+/* Codes of left bar not to be display  */
+.leftbar{
+    display: none;
+ }
+/* Codes of leftbar ended  */
+
+
+
+/* The codes from title to home to skill container were ended here  */
+.last-structure{
+    /* border: 1px solid red; */
+    height: 88vh;
+}
+
+.centerbar{
+    /* border: 1px solid black; */
+    height: 88vh;
+    display: grid;
+    overflow-y:scroll ;
+    scroll-behavior: smooth;
+
+}
+
+/* Following are the codes of firstpage container  */
+
+#firstpage-container{
+    /* border: 1px solid green; */
+    height: 88vh;
+    display: grid;
+    grid-template-rows: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+    
+    background-image: url(../Images/port\ half\ photo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sample1-container{
+    /* border: 1px solid red; */
+}
+
+.sample2-container{
+    /* border: 1px solid red; */
+}
+
+
+.sample-main-container{
+    /* border: 1px solid red; */
+}
+
+
+.sample4-container{
+    /* border: 1px solid red; */
+}
+
+
+.sample5-container{
+    /* border: 1px solid red; */
+    display: grid;
+    align-items: end;
+    padding: 0 0 0 5%;
+}
+.sample5-container > div{
+    color: white;
+    font-size: 30px;
+}
+.sample5-container > div > span{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.sample6-container{
+    /* border: 1px solid red; */
+}
+/* The codes of firstpage container were ended here  */
+
+/* Following are the codes of secondpage container  */
+
+#secondpage-container{
+    /* border: 1px solid green; */
+    height: 1400px;
+    display: grid;
+    grid-template-rows: 10% 90%;
+}
+
+
+
+.about-to-uiuxtitle-container{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.about-title-container{
+    /* border: 1px solid black; */
+    padding: 0 0 0 2%;
+    display: grid;
+    align-items: center;
+}
+.about-title-container > p{
+    color: #11009E;
+    font-size: 30px;
+    
+}
+
+
+.uiux-title-container{
+    /* border: 1px solid black; */
+    padding: 0 0 0 2%;
+    display: grid;
+    align-items: center;
+}
+
+.uiux-title-container > p{
+    color: #11009E;
+    font-size: 20px;
+}
+
+
+
+
+.image-to-extrapersonal-container{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-rows: 40% 5% 5% 5% 5% 5% 5% 5%  5% 20%;
+    
+}
+
+.image-container{
+    /* border: 1px solid black; */
+    display:grid ;
+    justify-content: center;
+    align-items: center;
+   
+}
+.image-holderr{
+    /* border: 1px solid red; */
+    width: 95vw;
+    height: 100%;
+    
+}
+
+.image-holderr > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* padding: 0 0 0 0.5%; */
+}
+.greaterthan{
+    color: #52D3D8;
+}
+
+.birthday-container{
+    /* border: 1px solid black; */
+    display: grid;
+    align-items: center;
+    padding: 0 0 0 2%;
+}
+.birthday-container > p > span{
+    font-weight: bold;
+}
+
+.website-container{
+    /* border: 1px solid black; */
+    display: grid;
+    align-items: center;
+    padding: 0 0 0 2%;
+}
+.website-container > p > span{
+    font-weight: bold;
+}
+
+.phone-container{
+    /* border: 1px solid black; */
+    display: grid;
+    align-items: center;
+    padding: 0 0 0 2%;
+}
+.phone-container > p > span{
+    font-weight: bold;
+}
+
+.city-container{
+    /* border: 1px solid black; */
+    display: grid;
+    align-items: center;
+    padding: 0 0 0 2%;
+}
+.city-container > p > span{
+    font-weight: bold;
+}
+
+.age-container{
+    /* border: 1px solid black; */
+    display: grid;
+    align-items: center;
+    padding: 0 0 0 2%;
+}
+.age-container > p > span{
+    font-weight: bold;
+}
+
+.degree-container {
+    /* border: 1px solid black; */
+    display: grid;
+    align-items: center;
+    padding: 0 0 0 2%;
+}
+.degree-container > p > span{
+    font-weight: bold;
+}
+
+.phemailone-container{
+    /* border: 1px solid black; */
+    display: grid;
+    align-items: center;
+    padding: 0 0 0 2%;
+}
+.phemailone-container > p > span{
+    font-weight: bold;
+}
+
+.freelance-container{
+    /* border: 1px solid black; */
+    display: grid;
+    align-items: center;
+    padding: 0 0 0 2%;
+}
+.freelance-container > p > span{
+    font-weight: bold;
+}
+
+.extra-personal-container{
+    /* border: 1px solid black; */
+     display: grid;
+    align-items: center;
+    padding: 0 0 0 2%;
+}
+.extra-personal-container > p > span{
+    font-weight: bold;
+}
+
+
+/* The codes of secondpage container were ended here  */
+
+/* Following are the codes of thirdpage container  */
+#thirdpage-container{
+    /* border: 1px solid green; */
+    height: 1600px;
+    display: grid;
+    grid-template-rows: 4% 96%;
+}
+
+.resume-page-container{
+    /* border: 1px solid yellow; */
+    color:  #11009E;
+    padding: 0 0 0 2%;
+    display: grid;
+    align-items: center;
+    font-size: 30px;
+}
+
+
+.sumary-and-professional-box-container{
+    /* border: 1px solid yellow; */
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.sumary-container{
+    /* border: 1px solid blue; */
+    display: grid;
+    grid-template-rows: 5% 30% 5% 30% 30%;
+}
+
+.sumary-title-container{
+    /* border: 1px solid rgb(25, 252, 191); */
+    display: grid;
+    align-items: center;
+}
+.sumary-title-container > p{
+    font-weight: bold;
+    padding: 0 0 0 2%;
+}
+
+.alexsmith-container{
+    /* border: 1px solid rgb(25, 252, 191); */
+    display: grid;
+    grid-template-rows: 55% 15% 15% 15%;
+}
+.alexsmith-container > p{
+    padding: 0 0 0 2%;
+}
+
+
+.education-title-container{
+    /* border: 1px solid rgb(25, 252, 191); */
+    display: grid;
+    align-items: center;
+}
+.education-title-container > p{
+    font-weight: bold;
+    padding: 0 0 0 2%;
+}
+
+
+.master-container{
+    /* border: 1px solid rgb(25, 252, 191); */
+    display: grid;
+    align-items: center;
+    padding: 0 0 0 2%;
+}
+.master-container > .master{
+    font-weight: bold;
+   
+}
+
+
+.bachelor-container{
+    /* border: 1px solid rgb(25, 252, 191); */
+    display: grid;
+    align-items: center;
+    padding: 0 0 0 2%;
+}
+.bachelor-container > .bachelor-title{
+    font-weight: bold;
+}
+
+.professionalexperience-container{
+    /* border: 1px solid blue; */
+    display: grid;
+    
+    grid-template-rows: 10% 10% 10% 70%;
+}
+
+.professional-experience-title-container{
+    /* border: 1px solid blue; */
+    display: grid;
+    align-items: center;
+    padding: 0 0 0 2%;
+}
+.professional-experience-title-container > p{
+    font-weight: bold;
+}
+
+.seniorgraphic-container{
+    /* border: 1px solid blue; */
+    display: grid;
+    align-items: center;
+    padding: 0 0 0 2%;
+}
+.seniorgraphic-container > div{
+    font-weight: bold;
+}
+
+.present-name-container{
+    /* border: 1px solid blue; */
+    display: grid;
+    align-items: center;
+    padding: 0 0 0 2%;
+}
+.present-name-container > div{
+    font-weight: bold;
+} 
+
+.explain-seniorgraphic-container{
+    /* border: 1px solid blue; */
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+    align-items: center;
+}
+.point1{
+    /* border: 1px solid red; */
+    padding: 0 0 0 2%;
+}
+
+.point2{
+    /* border: 1px solid red; */
+    padding: 0 0 0 2%;
+}
+
+.point3{
+    /* border: 1px solid red; */
+    padding: 0 0 0 2%;
+}
+
+.point4{
+    /* border: 1px solid red; */
+    padding: 0 0 0 2%;
+}
+
+
+/* The codes of thirdpage container were ended here  */
+
+/* Following are the codes of fourthpage container  */
+#fourthpage-container{
+    /* border: 1px solid green; */
+    height: 800px;
+    display: grid;
+    grid-template-rows: 10% 20% 70%;
+}
+.portfolio-title-container{
+    /* border: 1px solid black; */
+    color:#11009E ;
+    display: grid;
+    align-items: center;
+    
+}
+.portfolio-title-container > p{
+    padding: 0 0 0 2%;
+    font-size: 30px;
+}
+
+.explain-portfolio-container{
+    /* border: 1px solid black; */
+}
+.explain-portfolio-container > div{
+    padding: 0 0 0 2%;
+}
+
+.portfolio-image-container{
+    /* border: 1px solid black; */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.portfolio-image-holderr{
+    /* border: 1px solid red; */
+    width: 90vw;
+    height: 100%;
+    
+}
+
+.portfolio-image-holderr > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* padding: 0 0 0 0.5%; */
+}
+/* The codes of fourthpage container were ended here  */
+
+/* Following are the codes of fifthpage container  */
+#fifthpage-container{
+    /* border: 1px solid green; */
+    height: 800px;
+    display: grid;
+    grid-template-rows: 10% 20% 70%;
+   
+}
+
+.skill-title-container{
+    /* border: 1px solid red; */
+    display: grid;
+    align-items: center;
+}
+.skill-title-container > div{
+    padding:  0 0 0 2%;
+    color: #11009E;
+    font-size: 30px;
+}
+
+.explain-skill-container{
+    /* border: 1px solid red; */
+}
+.explain-skill-container > div{
+    padding: 0  0 0 2%;
+}
+
+.language-to-testing-box{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+.languages-container{
+    /* border: 1px solid blue; */
+    padding: 0 0 0 2%;
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    
+}
+.language-title-container{
+    font-weight: bold;
+}
+
+
+.libraries-container{
+    /* border: 1px solid blue; */
+    padding: 0 0 0 2%;
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+.library-title-container{
+    font-weight: bold;
+}
+
+.framework-container{
+    /* border: 1px solid blue; */
+    padding: 0 0 0 2%;
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+.framework-title-container{
+    font-weight: bold;
+}
+
+.testing-container{
+    /* border: 1px solid blue; */
+    padding: 0 0 0 2%;
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+.testint-title-container{
+    font-weight: bold;
+}
+
+
+
+/* The codes of fifthpage container were ended here  */
+
+
+ }
+
+ /* The mobile view were ended here  */
+
+
+
+ @media only screen and (min-width:590px){
+#secondpage-container{
+    height: 2500px;
+}
+
+}
+
+@media only screen and (max-width:500px){
+.navbar{
+    font-size: 6.5px;
+    /* height: 7vh; */
+}
+.mobile-view-container{
+    /* height: 50px; */
+
+}
+.mobile-home-container > a{
+    font-size: 6.5px;
+}
+
+.mobile-about-container > a{
+    font-size: 6.5px;
+}
+
+.mobile-resume-container > a{
+    font-size: 6.5px;
+}
+  
+
+.mobile-portfolio-container > a{
+    font-size: 6.5px;
+}
+  
+
+.mobile-service-container > a{
+    font-size: 6.5px;
+}
+  
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The following are the codes for the laptop view */
+@media only screen and (min-width:1000px){
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* box-sizing: border-box; */
+}
+.first-structure{
+    display: grid;
+}
+
+
+.navbar{
+    /* border: 1px solid blue; */
+    display: grid;
+    align-items: center;
+    height:7vh ;
+    background-color: #070F2B;
+    justify-content: center;
+  
+    
+}
+.navbar > div{
+    color: white;
+}
+
+/* The following is hiding the mobile view container for laptop  */
+.mobile-view-container{
+    display: none;
+}
+
+/* The codes of hiding the mobile view container were ended here  */
+
+
+
+
+
+
+
+
+/* The following are the codes of description bar */
+
+
+
+
+
+.last-structure{
+    display: grid;
+    grid-template-columns: 22vw 78vw;
+}
+/* The following are the codes of leftbar */
+.leftbar{
+    /* border: 1px solid blue; */
+    height: 92.5vh;
+    display: grid;
+    grid-template-rows: 25% 9.375% 9.375% 9.375% 9.375% 9.375% 9.375% 9.375% 9.375%;
+    background-color: #070F2B;
+}
+
+/* The following are the codes of subdivision of  leftbar */
+
+.photo-container{
+    /* border: 1px solid red; */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-holder{
+    width: 80px;
+    height: 80px;
+    border: 10px solid #35374B;
+    border-radius:80px;
+    
+    
+}
+
+.photo-holder > img{
+    width:80px;
+    height: 80px;
+    border-radius: 80px;
+   
+
+}
+
+
+.name-container{
+    /* border: 1px solid red; */
+    color: white;
+    text-align: center;
+    display: grid;
+    align-items: center;
+}
+
+
+
+
+
+
+
+/* The following are the codes of social media container */
+.socialmedia-container{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    align-items: center;
+     padding: 0 5%; 
+    justify-content: center;
+
+}
+/* The following are the codes of subdivision of  socialmedia container */
+
+.twitter-container{
+    /* border: 1px solid blue; */
+   display: grid;
+   align-items: center;
+   justify-content: center;
+    
+}
+.twitter-holder{
+    width: 25px;
+    height: 25px;
+    border: 3px solid #35374B;
+    border-radius: 25px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color:#35374B;
+}
+.twitter-holder:hover{
+    background-color: #52D3D8;
+    border: 3px solid #52D3D8;
+    cursor:pointer;
+}
+
+.twitter{
+    color: white;
+    font-size: 18px;
+}
+
+.facebook-container{
+    /* border: 1px solid blue; */
+   display: grid;
+   align-items: center;
+   justify-content: center;
+}
+
+.facebook-holder{
+    width: 25px;
+    height: 25px;
+    border: 3px solid #35374B;
+    border-radius: 25px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color:#35374B;
+}
+
+.facebook-holder:hover{
+    background-color: #52D3D8;
+    border: 3px solid #52D3D8;
+    cursor:pointer;
+}
+.facebook{
+    color: white;
+    font-size: 18px;
+}
+
+
+.instagram-container{
+    /* border: 1px solid blue; */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.instagram-holder{
+    width: 25px;
+    height: 25px;
+    border: 3px solid #35374B;
+    border-radius: 25px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color:#35374B;
+}
+
+.instagram-holder:hover{
+    background-color: #52D3D8;
+    border: 3px solid #52D3D8;
+    cursor:pointer;
+}
+.instagram{
+    color: white;
+    font-size: 18px;
+}
+
+.whatsapp-container{
+    /* border: 1px solid blue; */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatsapp-holder{
+    width: 25px;
+    height: 25px;
+    border: 3px solid #35374B;
+    border-radius: 25px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color:#35374B;
+}
+.whatsapp-holder:hover{
+    background-color: #52D3D8;
+    border: 3px solid #52D3D8;
+    cursor:pointer;
+}
+
+.whatsapp{
+    color: white;
+    font-size: 18px;
+}
+
+
+
+
+.linkedin-container{
+    /* border: 1px solid blue; */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkedin-holder{
+    width: 25px;
+    height: 25px;
+    border: 3px solid #35374B;
+    border-radius: 25px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color:#35374B;
+}
+.linkedin-holder:hover{
+    background-color: #52D3D8;
+    border: 3px solid #52D3D8;
+    cursor:pointer;
+}
+
+
+.linkedin{
+    color: white;
+    font-size: 18px;
+}
+
+
+
+
+
+.home-container{
+    /* border: 1px solid red; */
+    display: grid;
+    text-align: center;
+    align-items: center;
+    
+}
+.home-container:hover{
+    background-color: #232D3F;
+}
+
+.about-container{
+    /* border: 1px solid red; */
+    display: grid;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.about-container:hover{
+    background-color: #232D3F;
+}
+
+.resume-container{
+    /* border: 1px solid red; */
+    display: grid;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.resume-container:hover{
+    background-color: #232D3F;
+}
+
+.portfolio-container{
+    /* border: 1px solid red; */
+    display: grid;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.portfolio-container:hover{
+    background-color: #232D3F;
+}
+
+.service-container{
+    /* border: 1px solid red; */
+    display: grid;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.service-container:hover{
+    background-color: #232D3F;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+a:hover{
+    color: #52D3D8;
+}
+
+.designer-container{
+    /* border: 1px solid red; */
+    display: grid;
+    text-align: center;
+    align-items: center;
+    
+}
+.designer-container > p{
+    color: white;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.centerbar{
+    /* border: 1px solid blue; */
+    display: grid;
+    height:92.5vh ;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+ 
+   
+}
+
+#firstpage-container{
+    border: 1px solid black;
+    height: 92vh;
+    display: grid;
+    scroll-behavior: smooth;
+    background-image: url(../Images/port\ photo\ full.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.sample1-container{
+    /* border: 1px solid red; */
+    
+}
+
+.sample2-container{
+    /* border: 1px solid red; */
+ 
+}
+.sample-main-container{
+    /* border: 1px solid red; */
+}
+
+.sample4-container{
+    /* border: 1px solid red; */
+
+  
+}
+.sample5-container{
+    /* border: 1px solid red; */
+    display: grid;
+    align-items: center;
+    padding: 0 0 0 15%;
+}
+.sample5-container > div{
+    color: white;
+    font-size: 30px;
+
+}
+.sample5-container > div > span{
+    font-size: 30px;
+    font-weight: bold;
+}
+.sample6-container{
+    /* border: 1px solid red; */
+}
+
+
+/* First page code ended here */
+
+/* Second page code are start here */
+#secondpage-container{
+    /* border: 1px solid black; */
+    height: 92.5vh;
+    display: grid;
+    grid-template-rows: 20% 80% ;
+
+}
+.about-to-uiuxtitle-container{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.about-title-container{
+    /* border: 1px solid darkgoldenrod; */
+    grid-column: span 2; 
+    display: grid;
+    align-items: center;
+}
+.about-title-container > p{
+    padding:0 0 0 3%;
+    color: #11009E;
+    font-size: 30px;
+}
+
+
+.uiux-title-container{
+    /* border: 1px solid darkgoldenrod; */
+    grid-column: span 2; 
+    display: grid;
+    align-items: center;
+} 
+.uiux-title-container > p{
+    padding:0 0 0 3%;
+    color: #11009E;
+    font-size: 20px;
+}
+.image-to-extrapersonal-container{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns:30% 35% 35%;
+    grid-template-rows: 10% 10% 10% 10% 60%;
+   
+}
+.image-container{
+    /* border: 1px solid darkgoldenrod; */
+    grid-row: 1/span 6;  
+}
+.image-holderr{
+    height: 100%;
+}
+
+.image-holderr > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.birthday-container{
+    /* border: 1px solid darkgoldenrod; */
+    display: grid;
+    padding: 0 0 0 5%;
+    align-items: center;
+    
+}
+.greaterthan{
+    color: #52D3D8;
+    font-size: 10px;
+}
+.birthday-container > p{
+    font-size: 13px;
+}
+.birthday-container > p > span{
+    font-weight: bold;
+}
+
+.website-container{
+    /* border: 1px solid darkgoldenrod; */
+    display: grid;
+    padding: 0 0 0 5%;
+    align-items: center;
+}
+.website-container > p > span{
+    font-weight: bold;
+}
+.website-container > p{
+    font-size: 13px;
+}
+
+.phone-container{
+    /* border: 1px solid darkgoldenrod; */
+    display: grid;
+    padding: 0 0 0 5%;
+    align-items: center;
+}
+.phone-container> p > span{
+    font-weight: bold;
+}
+.phone-container> p{
+    font-size: 13px;
+}
+.city-container{
+    /* border: 1px solid darkgoldenrod; */
+    display: grid;
+    padding: 0 0 0 5%;
+    align-items: center;
+}
+.city-container > p > span{
+    font-weight: bold;
+}
+.city-container > p{
+    font-size: 13px;
+}
+.age-container{
+    /* border: 1px solid darkgoldenrod; */
+    display: grid;
+    padding: 0 0 0 5%;
+    align-items: center;
+}
+.age-container > p > span{
+    font-weight: bold;
+}
+.age-container > p{
+    font-size: 13px;
+}
+
+.degree-container{
+    /* border: 1px solid darkgoldenrod; */
+    display: grid;
+    padding: 0 0 0 5%;
+    align-items: center;
+}
+.degree-container > p > span{
+    font-weight: bold;
+}
+.degree-container > p{
+    font-size: 13px;
+}
+
+.phemailone-container{
+    /* border: 1px solid darkgoldenrod; */
+    display: grid;
+    padding: 0 0 0 5%;
+    align-items: center;
+}
+.phemailone-container > p > span{
+    font-weight: bold;
+}
+.phemailone-container > p{
+    font-size: 13px;
+}
+
+.freelance-container{
+    /* border: 1px solid darkgoldenrod; */
+    display: grid;
+    padding: 0 0 0 5%;
+    align-items: center;
+}
+.freelance-container > p > span{
+    font-weight: bold;
+}
+.freelance-container > p{
+    font-size: 13px;
+}
+
+
+.extra-personal-container{
+    /* border: 1px solid black; */
+    grid-column: 2/ span 2;
+    grid-row: 5/span 2;
+    display: grid;
+    align-items: center;
+    
+}
+.extra-personal-container > p{
+    padding: 0 0 0 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Second page code are ended above */
+
+/* Third page code were start here */
+
+#thirdpage-container{
+    /* border: 1px solid black; */
+    height: 92.5vh;
+    display: grid;
+   grid-template-rows: 10% 90%;
+ 
+    
+}
+.resume-page-container{
+    /* border: 1px solid red; */
+    display: grid;
+    align-items: center;
+   
+}
+.resume-page-container > p{
+    padding:0 0 0 2%;
+    color: #11009E;
+    font-size: 30px;
+}
+/* The following are the codes of summary and professional box container */
+
+.sumary-and-professional-box-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+   
+}
+.sumary-container{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-rows: 10% 30% 10% 20% 30%;
+   
+}
+ .sumary-title-container{
+    /* border: 1px solid black; */
+    display: grid;
+    align-items: center;
+    
+}
+.sumary-title-container > p{
+    font-weight: bold;
+    padding: 0 0 0 5%
+}
+
+.alexsmith-container{
+    /* border: 1px solid black; */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+} 
+
+.alexsmith-container > p{
+    padding: 0 0 0 5%;
+    
+}
+
+
+
+.education-title-container{
+    /* border: 1px solid yellow; */
+    display: grid;
+    align-items: center;
+}
+
+.education-title-container > p{
+    font-weight: bold;
+    padding: 0 0 0 5%;
+   
+}
+.master-container{
+    /* border: 1px solid yellow; */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.master-container > .master{
+    font-weight: bold;
+    padding: 0 0 0 5%;
+}
+.master-container > .para{
+   padding: 0 0 0 5%;
+}
+
+.bachelor-container{
+    /* border: 1px solid yellow; */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+} 
+.bachelor-container > .bachelor-title{
+    font-weight: bold;
+    padding: 0 0 0 5%;
+}
+.bachelor-container > .explain-bachelor{
+    padding: 0 0 0 5%;
+ }
+/* The codes of summary were ended here */
+
+/* The following are the codes of professional  experience container */
+.professionalexperience-container{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-rows: 10% 10% 10% 70%;
+   
+}
+
+.professional-experience-title-container{
+    /* border: 1px solid greenyellow; */
+    display: grid;
+    align-items: center;
+}
+.professional-experience-title-container > p{
+    font-weight: bold;
+    padding: 0 0 0 5%;
+    
+}
+
+.seniorgraphic-container{
+    /* border: 1px solid greenyellow; */
+    display: grid;
+    align-items: center;
+}
+.seniorgraphic-container > div{
+    font-weight: bold;
+    padding: 0 0 0 5%;
+}
+
+.present-name-container{
+    /* border: 1px solid greenyellow; */
+    display: grid;
+    align-items: center;
+}
+.present-name-container > div{
+    padding:  0 0 0 5%;
+   
+}
+/* The codes of proessional experience container were ended here */
+
+/* The following are the codes of explain senior graphic container  */
+.explain-seniorgraphic-container{
+    /* border: 1px solid red; */
+    display: grid;
+}
+
+
+.point1{
+    /* border: 1px solid black; */
+    display: grid;
+    align-items: center;
+}
+.point1 > div{
+    padding: 0 0 0 5%;
+}
+
+
+.point2{
+    /* border: 1px solid black; */
+    display: grid;
+    align-items: center;
+}
+.point2 > div{
+    padding: 0 0 0 5%;
+}
+
+.point3{
+    /* border: 1px solid black; */
+    display: grid;
+    align-items: center;
+}
+.point3 > div{
+    padding: 0 0 0 5%;
+}
+
+.point4{
+    /* border: 1px solid black; */
+    display: grid;
+    align-items: center;
+}
+.point4 > div{
+    padding: 0 0 0 5%;
+}
+/* The codes of explain senior graphic container were ended here */
+
+/* The following are the codes of fourthpage container  */
+#fourthpage-container{
+    /* border: 1px solid black; */
+    height: 92.5vh;
+    display: grid;
+    grid-template-rows: 10% 10% 80%;
+
+}
+
+
+.portfolio-title-container{
+    /* border: 1px solid red; */
+    display: grid;
+    align-items: center;
+}
+.portfolio-title-container > p{
+    font-size: 30px;
+    color: #11009E;
+    padding: 0 0 0 2.5%;
+}
+
+.explain-portfolio-container{
+    /* border: 1px solid red; */
+    display: grid;
+    align-items: center;
+}
+.explain-portfolio-container > div{
+    padding: 0 0 0 2.5%;
+
+}
+.portfolio-image-container{
+    /* border: 1px solid red; */
+}
+.portfolio-image-holderr{
+    height: 100%;
+}
+.portfolio-image-holderr > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+/* The codes of fourth page container were ended here */
+
+/* The following are the codes of fifthpage container  */
+#fifthpage-container{
+    /* border: 1px solid black; */
+    height: 92.5vh;
+    display: grid;
+    grid-template-rows: 10% 10% 80%;
+
+}
+.language-to-testing-box{
+    display: grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+.skill-title-container{
+    /* border: 1px solid yellow; */
+    display: grid;
+    align-items: center;
+}
+.skill-title-container > div{
+    color: #11009E;
+    font-size: 30px;
+    padding: 0 0 0 2.5%;
+}
+
+.explain-skill-container{
+    /* border: 1px solid yellow; */
+    display: grid;
+    align-items: center;
+}
+.explain-skill-container > div{
+    padding: 0 0 0 2.5%;
+}
+
+.languages-container{
+    /* border: 1px solid yellow; */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.languages-container > .language-title-container{
+    font-size: 20px;
+    font-weight: bold;
+}
+.libraries-container{
+    /* border: 1px solid yellow; */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.libraries-container > .library-title-container{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.framework-container{
+    /* border: 1px solid yellow; */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.framework-container > .framework-title-container{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.testing-container{
+    /* border: 1px solid yellow; */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.testing-container > .testint-title-container{
+    font-size: 20px;
+    font-weight: bold;
+ }
+
+
+/* The codes of fifthpage container were ended here */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
